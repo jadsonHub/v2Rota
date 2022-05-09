@@ -1,0 +1,13 @@
+{
+    "name": "animalhouse/rota_02",
+    "description": "route-project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "server" : "php -S localhost:0.0.0.0 -t public"
+    },
+    "require": {}
+}
